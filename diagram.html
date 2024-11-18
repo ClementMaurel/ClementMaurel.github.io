@@ -16,9 +16,9 @@
     <div class="mermaid">
         classDiagram
         
-        Portfolio --> Page : contient
-        Portfolio --> Projet : contient
-        Portfolio --> CV : contient
+        Portfolio "1" --> "*" Page : contient
+        Portfolio "1" --> "*" Projet : contient
+        Portfolio "1" --> "1" CV : contient
         
         class Portfolio{
             +String titre
