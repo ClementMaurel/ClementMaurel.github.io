@@ -99,3 +99,79 @@ Créer un portfolio web personnel en utilisant Jekyll, un générateur de site s
 |**Total** |**17h** |
 
 *\* Les tâches peuvent se chevaucher légèrement selon l’aisance avec certains outils, ou si des problèmes techniques surviennent.* 
+
+
+
+
+
+# CLÉMENT MAUREL
+## Recherche d'un contrat d'apprentissage en Data Management
+
+- **Adresse :** 4 route de castelnau, 31330, Toulouse
+- **Téléphone :** 06 40 71 97 05
+- **Email :** maurelclement@outlook.com
+
+Étudiant et futur diplômé d'un **BUT Sciences des données**, j'occupe actuellement un poste de **Data Analyst en alternance** chez Airbus Commercial Aircraft. Je suis à la recherche d'un contrat en apprentissage pour préparer un **Master of Science Manager en Data Marketing** à l'INSEEC.
+
+---
+
+## PROFIL PROFESSIONNEL
+
+Analyste de données avec une passion pour le design de l'information et l'architecture, je cherche à utiliser mes compétences en Data Management pour structurer et transformer des données de manière efficace. Je suis également attiré par les arts urbains et la peinture, enrichissant ainsi mon regard artistique.
+
+---
+
+## PARCOURS PROFESSIONNEL
+
+### Analyste de données  
+**Airbus Commercial Aircraft** - Toulouse, Saint-Martin  
+*Contrat d'apprentissage* | 09/2023 - Actuel
+
+- **Développement de scripts :** Création et optimisation de solutions automatisées à l'aide de **Google Apps Script** pour améliorer les processus internes.
+- **Analyse de données :** Utilisation de **Python** pour collecter, traiter et analyser des données.
+- **Élaboration de KPI :** Conception et suivi de tableaux de bord de performance (KPI) pour mesurer l'efficacité des projets.
+- **Reporting :** Présentation des résultats d'analyse sous forme de rapports clairs et concis, facilitant la prise de décision.
+- **Collaboration inter-équipes :** Travail en étroite collaboration avec différentes équipes et sous-traitants pour comprendre leurs besoins en matière de données et adapter les solutions en conséquence.
+
+### Développeur Visual Basic  
+**Engie Solutions (Cofely)** - Toulouse, 31  
+*Stage* | 06/2021 - 07/2021
+
+- **Automatisation de fichiers Excel :** Développement de solutions **VBA** (Visual Basic for Applications) pour automatiser des tâches récurrentes et améliorer l'efficacité des processus.
+- **Création de rapports analytiques :** Élaboration de rapports détaillés à partir de l'analyse de données, permettant une meilleure compréhension des performances et des tendances.
+
+---
+
+## FORMATION
+
+### BUT : Sciences des données  
+**IUT de Carcassonne** - Carcassonne, 11000  
+*Parcours VCOD (Visualisation et Conception d'Outils Informatiques)* | 09/2022 - En cours
+
+- **Data Management :** Gestion et organisation des données pour assurer leur accessibilité et leur intégrité, facilitant l'analyse et la prise de décision.
+- **Programmation :** Développement de solutions logicielles adaptées aux besoins utilisateurs, avec un focus sur l'optimisation des processus.
+- **Analyse Statistique :** Application de méthodes statistiques pour interpréter des données complexes.
+- **Intelligence Artificielle :** Initiation au **Machine Learning**.
+
+---
+
+## COMPÉTENCES
+
+- **Langages de programmation :** Python, R, **Google Apps Script**
+- **Bases de données :** SQL, MongoDB, **Néo4j**
+- **Outils de visualisation :** PowerBI, Tableau
+- **Autres outils :** Splunk, FME
+
+---
+
+## LANGUES
+
+- **Anglais :** Opérationnel
+- **Espagnol :** Notions
+
+---
+
+## CENTRES D'INTÉRÊT
+
+Le design de l'information et l'architecture me passionnent pour leur capacité à structurer et transformer l'espace. Les arts urbains et la peinture, quant à eux, enrichissent mon regard artistique en apportant une dimension expressive et esthétique.
+
