@@ -1,716 +1,254 @@
-<!DOCTYPE HTML>
-<html lang="en" >
-    <head><meta charset="UTF-8">
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>Jekyll Gitbook Theme · Jekyll Gitbook</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="description" content="Build Jekyll site with the GitBook style.
-"><meta name="generator" content="Jekyll (using style of GitBook 3.2.3)"><meta name="author" content="HE Tao"><link rel="stylesheet" href="/jekyll-gitbook/assets/gitbook/style.css">
-<link rel="stylesheet" href="/jekyll-gitbook/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
-<link rel="stylesheet" href="/jekyll-gitbook/assets/gitbook/gitbook-plugin-expandable-chapters-small2/expandable-chapters-small.css">
-<link rel="stylesheet" href="/jekyll-gitbook/assets/gitbook/gitbook-plugin-fontsettings/website.css">
-<link rel="stylesheet" href="/jekyll-gitbook/assets/gitbook/gitbook-plugin-search-pro/search.css">
-<link rel="stylesheet" href="/jekyll-gitbook/assets/gitbook/gitbook-plugin-splitter/splitter.css">
+<p><strong>Gestion de Projet - Création d’un Portfolio Web avec Jekyll et GitHub Pages</strong></p>
 
-<link rel="stylesheet" href="/jekyll-gitbook/assets/gitbook/rouge/colorful.css">
+<p><strong>Durée totale : 17 heures</strong></p>
 
-<link rel="stylesheet" href="/jekyll-gitbook/assets/gitbook/custom.css">
-<link rel="stylesheet" href="/jekyll-gitbook/assets/gitbook/custom-local.css">
+<p><strong>Objectif du projet :</strong></p>
 
-<meta name="HandheldFriendly" content="true"/>
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/jekyll-gitbook/assets/gitbook/images/apple-touch-icon-precomposed-152.png">
-<link rel="shortcut icon" href="/jekyll-gitbook//assets/gitbook/images/favicon.ico" type="image/x-icon">
+<p>Créer un portfolio web personnel en utilisant Jekyll, un générateur de site statique, hébergé sur GitHub Pages, avec un design personnalisé et des projets intégrés. <img src="Aspose.Words.1c792e9d-1033-4a35-808e-a8dd6339f02e.001.png" alt="" /></p>
 
+<ol>
+  <li><strong>Modélisation du projet en UML (1h)</strong></li>
+</ol>
 
+<p><strong>Objectif :</strong> Créer un diagramme UML pour modéliser la structure et les fonctionnalités du site.</p>
 
+<p><strong>Livrable :</strong> Diagramme UML représentant la structure du site (use case, diagramme de classes, etc.).</p>
 
+<ol>
+  <li><strong>Créer le dépôt GitHub pour le portfolio (0.5h)</strong></li>
+</ol>
 
-        
-            <link rel="next" href="/jekyll-gitbook/jekyll/2019-04-27-why.html" />
-        
-    </head>
-    <body>
-        <div class="book"><div class="book-summary">
-    <script type="text/javascript">
-        // Fixes the page links scroll problem on both desktop and mobile browsers
-        function pageScrollToTop(element) {
-            // both mobile and non-mobile
-            $('div.body-inner').animate({scrollTop: 0});
-            $(element).parent().find('li>ul>li').removeClass('active');
-            return true;  // propagate
-        }
-        // Fixes the anchor links scroll problem on mobile browsers
-        function mobilePageScrollToAnchor(element) {
-            $(element).closest('li.chapter').find('ul>li').removeClass('active');
-            $(element).parent().addClass('active');
-            if ($(document).width() <= 1240) {
-                let target = $($(element).attr('href'));
-                if (target.length) {
-                    $('div.body-inner').animate({
-                        scrollTop: target.get(0).offsetTop,
-                    });
-                }
-            }
-            return true;
-        }
-    </script>
+<p><strong>Objectif :</strong> Créer un dépôt GitHub pour héberger le code du site.</p>
 
-    <nav role="navigation">
-        <div id="book-search-input" role="search">
-            <input type="text" placeholder="Type to search" />
-        </div>
-        <div id="book-search-input-link" role="search">
-            <a href="/jekyll-gitbook/assets/search.html">Click to Search</a>
-        </div>
-        <ul class="summary">
-            
-            <li class="chapter active" data-level="1.1" data-path="/jekyll-gitbook">
-            
-                <a href="/jekyll-gitbook/" onclick="pageScrollToTop(this)">
-                    Jekyll Gitbook
-                </a>
-                
-                    
-                
-            </li>
+<p><strong>Livrable :</strong> Dépôt GitHub initialisé avec le premier commit.</p>
 
-            <li class="divider"></li>
+<ol>
+  <li><strong>Initialiser le projet Jekyll (1h)</strong></li>
+</ol>
 
-            
-                
-                    
-                    <!-- <p>posts</p> -->
-                    
-                        
+<p><strong>Objectif :</strong> Créer l’infrastructure de base du site en utilisant Jekyll.</p>
 
-                        
-                            
-                            <li class="chapter" data-level="1.1" data-path="/jekyll-gitbook/jekyll/2019-04-27-why.html">
-                            
-                                <a href="/jekyll-gitbook/jekyll/2019-04-27-why.html" onclick="pageScrollToTop(this)">
-                                    Why Jekyll with GitBook
-                                </a>
-                                
-                                    
-                                
-                            </li>
-                        
-                            
-                            <li class="chapter" data-level="1.1" data-path="/jekyll-gitbook/jekyll/2019-04-28-howto.html">
-                            
-                                <a href="/jekyll-gitbook/jekyll/2019-04-28-howto.html" onclick="pageScrollToTop(this)">
-                                    How to Get Started
-                                </a>
-                                
-                                    
-                                
-                            </li>
-                        
-                            
-                            <li class="chapter" data-level="1.1" data-path="/jekyll-gitbook/jekyll/2019-04-29-license.html">
-                            
-                                <a href="/jekyll-gitbook/jekyll/2019-04-29-license.html" onclick="pageScrollToTop(this)">
-                                    License
-                                </a>
-                                
-                                    
-                                
-                            </li>
-                        
-                            
-                            <li class="chapter" data-level="1.1" data-path="/jekyll-gitbook/jekyll/2021-08-10-toc.html">
-                            
-                                <a href="/jekyll-gitbook/jekyll/2021-08-10-toc.html" onclick="pageScrollToTop(this)">
-                                    How to Generate TOC
-                                </a>
-                                
-                                    
-                                
-                            </li>
-                        
-                            
-                            <li class="chapter" data-level="1.1" data-path="/jekyll-gitbook/jekyll/2022-05-24-page_cover.html">
-                            
-                                <a href="/jekyll-gitbook/jekyll/2022-05-24-page_cover.html" onclick="pageScrollToTop(this)">
-                                    Page with cover image
-                                </a>
-                                
-                                    
-                                
-                            </li>
-                        
-                            
-                            <li class="chapter" data-level="1.1" data-path="/jekyll-gitbook/jekyll/2022-06-26-wide_tables.html">
-                            
-                                <a href="/jekyll-gitbook/jekyll/2022-06-26-wide_tables.html" onclick="pageScrollToTop(this)">
-                                    Wide tables
-                                </a>
-                                
-                                    
-                                
-                            </li>
-                        
-                            
-                            <li class="chapter" data-level="1.1" data-path="/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html">
-                            
-                                <a href="/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html" onclick="pageScrollToTop(this)">
-                                    Tips, Warnings, and Dangers
-                                </a>
-                                
-                                    
-                                
-                            </li>
-                        
-                            
-                            <li class="chapter" data-level="1.1" data-path="/jekyll-gitbook/jekyll/2023-08-31-mermaid.html">
-                            
-                                <a href="/jekyll-gitbook/jekyll/2023-08-31-mermaid.html" onclick="pageScrollToTop(this)">
-                                    Diagrams with mermaid.js
-                                </a>
-                                
-                                    
-                                
-                            </li>
-                        
-                            
-                            <li class="chapter" data-level="1.1" data-path="/jekyll-gitbook/jekyll/2023-10-14-math-latex.html">
-                            
-                                <a href="/jekyll-gitbook/jekyll/2023-10-14-math-latex.html" onclick="pageScrollToTop(this)">
-                                    MathJax and LaTeX
-                                </a>
-                                
-                                    
-                                
-                            </li>
-                        
-                            
-                            <li class="chapter" data-level="1.1" data-path="/jekyll-gitbook/jekyll/2023-12-12-footnotes.html">
-                            
-                                <a href="/jekyll-gitbook/jekyll/2023-12-12-footnotes.html" onclick="pageScrollToTop(this)">
-                                    Using Footnotes
-                                </a>
-                                
-                                    
-                                
-                            </li>
-                        
+<p><strong>Livrable :</strong> Structure de projet Jekyll fonctionnelle en local.</p>
 
-                        
-                            <li class="divider"></li>
-                        
-                    
-                
-                    
-                    <!-- <p>pages</p> -->
-                    
-                        
+<ol>
+  <li><strong>Configurer GitHub Pages (1h)</strong></li>
+</ol>
 
-                        
-                            
-                            <li class="chapter" data-level="1.1" data-path="/jekyll-gitbook/pages/about/">
-                            
-                                <a href="/jekyll-gitbook/pages/about/" onclick="pageScrollToTop(this)">
-                                    About
-                                </a>
-                                
-                                    
-                                
-                            </li>
-                        
-                            
-                            <li class="chapter" data-level="1.1" data-path="/jekyll-gitbook/pages/contact/">
-                            
-                                <a href="/jekyll-gitbook/pages/contact/" onclick="pageScrollToTop(this)">
-                                    Contact
-                                </a>
-                                
-                                    
-                                
-                            </li>
-                        
-                            
-                            <li class="chapter" data-level="1.1" data-path="/jekyll-gitbook/pages/design/draft/">
-                            
-                                <a href="/jekyll-gitbook/pages/design/draft/" onclick="pageScrollToTop(this)">
-                                    Design Draft
-                                </a>
-                                
-                                    
-                                
-                            </li>
-                        
+<p><strong>Objectif :</strong> Configurer GitHub Pages pour héberger le site.</p>
 
-                        
-                            <li class="divider"></li>
-                        
-                    
-                
-                    
-                    <!-- <p>others</p> -->
-                    
-                        
+<p><strong>Livrable :</strong> Site Jekyll disponible sur GitHub Pages avec un domaine temporaire (ex : nom- utilisateur.github.io/portfolio).</p>
 
-                        
-                            
-                            <li class="chapter" data-level="1.1" data-path="/jekyll-gitbook/others/about/">
-                            
-                                <a href="/jekyll-gitbook/others/about/" onclick="pageScrollToTop(this)">
-                                    About others
-                                </a>
-                                
-                                    
-                                
-                            </li>
-                        
+<ol>
+  <li><strong>Choisir et installer un thème Jekyll (1.5h)</strong></li>
+</ol>
 
-                        
-                            <li class="divider"></li>
-                        
-                    
-                
-            
-        </ul>
-    </nav>
-</div>
-<div class="book-body">
-                <div class="book-header" role="navigation">
-                    <!-- Title -->
-                    <h1>
-                        <i class="fa fa-circle-o-notch fa-spin"></i>
-                        
-                            <a href="." >Jekyll Gitbook Theme</a>
-                        
-                    </h1>
-                </div>
+<p><strong>Objectif :</strong> Sélectionner et installer un thème adapté au portfolio.</p>
 
-                <div class="body-inner"><div class="page-wrapper" tabindex="-1" role="main">
-    
+<p><strong>Livrable :</strong> Thème installé et appliqué avec une structure de base fonctionnelle.</p>
 
-    <div class="page-inner">
-        <div id="book-search-results">
-            <div class="search-noresults">
-                <section class="normal markdown-section">
-                    
-                        <h1 id="">Jekyll Gitbook Theme</h1>
-                    
+<ol>
+  <li><strong>Créer les pages principales du portfolio (1.5h)</strong></li>
+</ol>
 
-                    <p>Make Jelly site have a GitBook look!</p>
+<p><strong>Objectif :</strong> Créer les pages essentielles du portfolio (accueil, projets, contact).</p>
 
-<h2 id="demo">Demo</h2>
+<p><strong>Livrable :</strong> Pages de base créées et accessibles via la navigation du site.</p>
 
-<p>Live demo on Github Pages: <a href="https://sighingnow.github.io/jekyll-gitbook">https://sighingnow.github.io/jekyll-gitbook</a></p>
+<ol>
+  <li><strong>Rédiger le contenu pour les pages (2h)</strong></li>
+</ol>
 
-<p><a href="https://jekyll-themes.com/jekyll-gitbook/"><img src="https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg" alt="Jekyll Themes" /></a></p>
+<p><strong>Objectif :</strong> Rédiger du contenu pour les pages principales du portfolio.</p>
 
-<h2 id="why-jekyll-with-gitbook">Why Jekyll with GitBook</h2>
+<p><strong>Livrable :</strong> Contenu rédigé pour chaque page (accueil, projets, contact).</p>
 
-<p>GitBook is an amazing frontend style to present and organize contents (such as book chapters
-and blogs) on Web. The typical to deploy GitBook at <a href="https://pages.github.com">Github Pages</a>
-is building HTML files locally and then push to Github repository, usually to the <code class="language-plaintext highlighter-rouge">gh-pages</code>
-branch. It’s quite annoying to repeat such workload and make it hard for people do version
-control via git for when there are generated HTML files to be staged in and out.</p>
+<ol>
+  <li><strong>Personnaliser le design CSS du thème (2h)</strong></li>
+</ol>
 
-<p>This theme takes style definition out of generated GitBook site and provided the template
-for Jekyll to rendering markdown documents to HTML, thus the whole site can be deployed
-to <a href="https://pages.github.com">Github Pages</a> without generating and uploading HTML bundle every time when there are
-changes to the original repo.</p>
+<p><strong>Objectif :</strong> Adapter le design du thème Jekyll à l’image du portfolio.</p>
 
-<h2 id="how-to-get-started">How to Get Started</h2>
+<p><strong>Livrable :</strong> Design personnalisé du portfolio avec une apparence cohérente et professionnelle.</p>
 
-<p>This theme can be used just as other <a href="https://pages.github.com">Jekyll themes</a> and support <a href="https://rubygems.org/gems/jekyll-remote-theme">remote theme</a>,
-see <a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll">the official guide</a> as well.</p>
+<ol>
+  <li><strong>Ajouter des projets et des images (2h)</strong></li>
+</ol>
 
-<p>You can introduce this jekyll theme into your own site by either</p>
+<p><strong>Objectif :</strong> Ajouter des projets réels et des images pour illustrer le portfolio.</p>
+
+<p><strong>Livrable :</strong> Projets et images ajoutés et correctement affichés dans le portfolio.</p>
+
+<ol>
+  <li><strong>Tester le site localement (1h)</strong></li>
+</ol>
+
+<p><strong>Objectif :</strong> Vérifier le bon fonctionnement du site en local avant la mise en ligne.</p>
+
+<p><strong>Livrable :</strong> Test local effectué avec une version stable du site.</p>
+
+<ol>
+  <li><strong>Déployer le site sur GitHub Pages (1h)</strong></li>
+</ol>
+
+<p><strong>Objectif :</strong> Déployer la version finale du site sur GitHub Pages.</p>
+
+<p><strong>Livrable :</strong> Site déployé sur GitHub Pages et accessible publiquement.</p>
+
+<ol>
+  <li><strong>Vérification finale et ajustements (1.5h)</strong></li>
+</ol>
+
+<p><strong>Objectif :</strong> Effectuer une révision finale du site et apporter les derniers ajustements.</p>
+
+<p><strong>Livrable :</strong> Version finale du site prête à être utilisée. <img src="Aspose.Words.1c792e9d-1033-4a35-808e-a8dd6339f02e.002.png" alt="" /></p>
+
+<p><strong>Tableau Récapitulatif :</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Taches</strong></th>
+      <th><strong>Durée estimée</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Modélisation du projet en UML</td>
+      <td>1h</td>
+    </tr>
+    <tr>
+      <td>Créer le dépôt GitHub</td>
+      <td>0.5h</td>
+    </tr>
+    <tr>
+      <td>Initialiser le projet Jekyll</td>
+      <td>1h</td>
+    </tr>
+    <tr>
+      <td>Configurer GitHub Pages</td>
+      <td>1h</td>
+    </tr>
+    <tr>
+      <td>Choisir et installer un thème Jekyll</td>
+      <td>1.5h</td>
+    </tr>
+    <tr>
+      <td>Créer les pages principales</td>
+      <td>1.5h</td>
+    </tr>
+    <tr>
+      <td>Rédiger le contenu pour les pages</td>
+      <td>2h</td>
+    </tr>
+    <tr>
+      <td>Personnaliser le design CSS</td>
+      <td>2h</td>
+    </tr>
+    <tr>
+      <td>Ajouter des projets et des images</td>
+      <td>2h</td>
+    </tr>
+    <tr>
+      <td>Tester le site localement</td>
+      <td>1h</td>
+    </tr>
+    <tr>
+      <td>Déployer le site sur GitHub Pages</td>
+      <td>1h</td>
+    </tr>
+    <tr>
+      <td>Vérification finale et ajustements</td>
+      <td>1.5h</td>
+    </tr>
+    <tr>
+      <td><strong>Total</strong></td>
+      <td><strong>17h</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>* Les tâches peuvent se chevaucher légèrement selon l’aisance avec certains outils, ou si des problèmes techniques surviennent.</em></p>
+
+<h1 id="clément-maurel">CLÉMENT MAUREL</h1>
+<h2 id="recherche-dun-contrat-dapprentissage-en-data-management">Recherche d’un contrat d’apprentissage en Data Management</h2>
 
 <ul>
-  <li><a href="https://github.com/sighingnow/jekyll-gitbook/fork">Fork</a> this repository and add your markdown posts to the <code class="language-plaintext highlighter-rouge">_posts</code> folder.</li>
-  <li>Use as a remote theme in your <a href="https://github.com/sighingnow/jekyll-gitbook/blob/master/_config.yml"><code class="language-plaintext highlighter-rouge">_config.yml</code></a>(just like what we do for this
-site itself),</li>
+  <li><strong>Adresse :</strong> 4 route de castelnau, 31330, Toulouse</li>
+  <li><strong>Téléphone :</strong> 06 40 71 97 05</li>
+  <li><strong>Email :</strong> maurelclement@outlook.com</li>
 </ul>
 
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">remote_theme</span><span class="pi">:</span> <span class="s">sighingnow/jekyll-gitbook</span>
-</code></pre></div></div>
+<p>Étudiant et futur diplômé d’un <strong>BUT Sciences des données</strong>, j’occupe actuellement un poste de <strong>Data Analyst en alternance</strong> chez Airbus Commercial Aircraft. Je suis à la recherche d’un contrat en apprentissage pour préparer un <strong>Master of Science Manager en Data Marketing</strong> à l’INSEEC.</p>
 
-<h3 id="deploy-locally-with-jekyll-serve">Deploy Locally with Jekyll Serve</h3>
+<hr />
 
-<p>This theme can be ran locally using Ruby and Gemfiles.</p>
+<h2 id="profil-professionnel">PROFIL PROFESSIONNEL</h2>
 
-<p><a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll">Testing your GitHub Pages site locally with Jekyll</a> - GitHub</p>
+<p>Analyste de données avec une passion pour le design de l’information et l’architecture, je cherche à utiliser mes compétences en Data Management pour structurer et transformer des données de manière efficace. Je suis également attiré par les arts urbains et la peinture, enrichissant ainsi mon regard artistique.</p>
 
-<h2 id="full-text-search">Full-text search</h2>
+<hr />
 
-<p>The search functionality in jekyll-gitbook theme is powered by the <a href="https://github.com/gitbook-plugins/gitbook-plugin-search-pro">gitbook-plugin-search-pro</a> plugin and is enabled by default.</p>
+<h2 id="parcours-professionnel">PARCOURS PROFESSIONNEL</h2>
 
-<p><a href="https://sighingnow.github.io/jekyll-gitbook/?q=generated">https://sighingnow.github.io/jekyll-gitbook/?q=generated</a></p>
-
-<h2 id="code-highlight">Code highlight</h2>
-
-<p>The code highlight style is configurable the following entry in <code class="language-plaintext highlighter-rouge">_config.yaml</code>:</p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">syntax_highlighter_style</span><span class="pi">:</span> <span class="s">colorful</span>
-</code></pre></div></div>
-
-<p>The default code highlight style is <code class="language-plaintext highlighter-rouge">colorful</code>, the full supported styles can be found from <a href="https://github.com/rouge-ruby/rouge/tree/master/lib/rouge/themes">the rouge repository</a>. Customized
-style can be added to <a href="./assets/gitbook/rouge/">./assets/gitbook/rouge/</a>.</p>
-
-<h2 id="how-to-generate-toc">How to generate TOC</h2>
-
-<p>The jekyll-gitbook theme leverages <a href="https://github.com/allejo/jekyll-toc">jekyll-toc</a> to generate the <em>Contents</em> for the page.
-The TOC feature is not enabled by default. To use the TOC feature, modify the TOC
-configuration in <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">toc</span><span class="pi">:</span>
-    <span class="na">enabled</span><span class="pi">:</span> <span class="kc">true</span>
-    <span class="na">h_min</span><span class="pi">:</span> <span class="m">1</span>
-    <span class="na">h_max</span><span class="pi">:</span> <span class="m">3</span>
-</code></pre></div></div>
-
-<h2 id="google-analytics-etc">Google Analytics, etc.</h2>
-
-<p>The jekyll-gitboook theme supports embedding the <a href="https://analytics.google.com/analytics/web/">Google Analytics</a>, <a href="https://www.cnzz.com/">CNZZ</a> and <a href="https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview">Application Insights</a> website analytical tools with the following
-minimal configuration in <code class="language-plaintext highlighter-rouge">_config.yaml</code>:</p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">tracker</span><span class="pi">:</span>
-  <span class="na">google_analytics</span><span class="pi">:</span> <span class="s2">"</span><span class="s">&lt;YOUR</span><span class="nv"> </span><span class="s">GOOGLE</span><span class="nv"> </span><span class="s">ANALYTICS</span><span class="nv"> </span><span class="s">KEY,</span><span class="nv"> </span><span class="s">e.g,</span><span class="nv"> </span><span class="s">UA-xxxxxx-x&gt;"</span>
-</code></pre></div></div>
-
-<p>Similarly, CNZZ can be added with the following configuration in <code class="language-plaintext highlighter-rouge">_config.yaml</code></p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">tracker</span><span class="pi">:</span>
-  <span class="na">cnzz</span><span class="pi">:</span> <span class="s2">"</span><span class="s">&lt;YOUR</span><span class="nv"> </span><span class="s">CNZZ</span><span class="nv"> </span><span class="s">ANALYTICS</span><span class="nv"> </span><span class="s">KEY,</span><span class="nv"> </span><span class="s">e.g.,</span><span class="nv"> </span><span class="s">xxxxxxxx&gt;"</span>
-</code></pre></div></div>
-
-<p>Application Insights can be added with the following configuration in <code class="language-plaintext highlighter-rouge">_config.yaml</code></p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">tracker</span><span class="pi">:</span>
-  <span class="na">application_insights</span><span class="pi">:</span> <span class="s2">"</span><span class="s">&lt;YOUR</span><span class="nv"> </span><span class="s">APPLICATION</span><span class="nv"> </span><span class="s">INSIGHTS</span><span class="nv"> </span><span class="s">CONNECTION</span><span class="nv"> </span><span class="s">STRING&gt;"</span>
-</code></pre></div></div>
-
-<h2 id="disqus-comments">Disqus comments</h2>
-
-<p><a href="https://disqus.com/">Disqus</a> comments can be enabled by adding the following configuration in <code class="language-plaintext highlighter-rouge">_config.yaml</code>:</p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">disqushandler</span><span class="pi">:</span> <span class="s2">"</span><span class="s">&lt;YOUR</span><span class="nv"> </span><span class="s">DISQUS</span><span class="nv"> </span><span class="s">SHORTNAME&gt;"</span>
-</code></pre></div></div>
-
-<h2 id="jekyll-collections">Jekyll collections</h2>
-
-<p>Jekyll’s <a href="https://jekyllrb.com/docs/collections/">collections</a> is supported to organize the pages in a more fine-grained manner, e.g.,</p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">collections</span><span class="pi">:</span>
-  <span class="na">pages</span><span class="pi">:</span>
-    <span class="na">output</span><span class="pi">:</span> <span class="kc">true</span>
-    <span class="na">sort_by</span><span class="pi">:</span> <span class="s">date</span>
-    <span class="na">permalink</span><span class="pi">:</span> <span class="s">/:collection/:year-:month-:day-:title:output_ext</span>
-  <span class="na">others</span><span class="pi">:</span>
-    <span class="na">output</span><span class="pi">:</span> <span class="kc">true</span>
-    <span class="na">sort_by</span><span class="pi">:</span> <span class="s">date</span>
-    <span class="na">permalink</span><span class="pi">:</span> <span class="s">/:collection/:year-:month-:day-:title:output_ext</span>
-</code></pre></div></div>
-
-<p>An optional <code class="language-plaintext highlighter-rouge">ordered_collections</code> key can be added to <code class="language-plaintext highlighter-rouge">_config.yaml</code> to control the order of collections in the sidebar:</p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">ordered_collections</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="s">posts</span>
-  <span class="pi">-</span> <span class="s">pages</span>
-  <span class="pi">-</span> <span class="s">others</span>
-</code></pre></div></div>
-
-<p>If not specified, the order of collections would be decided by Jekyll. Note that the key <code class="language-plaintext highlighter-rouge">posts</code> is a special collection
-that indicates the <code class="language-plaintext highlighter-rouge">_posts</code> pages of Jekyll.</p>
-
-<h2 id="extra-stylesheet-or-javascript-elements">Extra StyleSheet or Javascript elements</h2>
-
-<p>You can add extra CSS or JavaScript references using configuration collections:</p>
+<h3 id="analyste-de-données">Analyste de données</h3>
+<p><strong>Airbus Commercial Aircraft</strong> - Toulouse, Saint-Martin<br />
+<em>Contrat d’apprentissage</em> | 09/2023 - Actuel</p>
 
 <ul>
-  <li>extra_css: for additional style sheets. If the url does not start by http, the path must be relative to the root of the site, without a starting <code class="language-plaintext highlighter-rouge">/</code>.</li>
-  <li>extra_header_js: for additional scripts to be included in the <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code> tag, after the <code class="language-plaintext highlighter-rouge">extra_css</code> has been added. If the url does not start by http, the path must be relative to the root of the site, without a starting <code class="language-plaintext highlighter-rouge">/</code>.</li>
-  <li>extra_footer_js: for additional scripts to be included at the end of the HTML document, just before the site tracking script. If the url does not start by http, the path must be relative to the root of the site, without a starting <code class="language-plaintext highlighter-rouge">/</code>.</li>
+  <li><strong>Développement de scripts :</strong> Création et optimisation de solutions automatisées à l’aide de <strong>Google Apps Script</strong> pour améliorer les processus internes.</li>
+  <li><strong>Analyse de données :</strong> Utilisation de <strong>Python</strong> pour collecter, traiter et analyser des données.</li>
+  <li><strong>Élaboration de KPI :</strong> Conception et suivi de tableaux de bord de performance (KPI) pour mesurer l’efficacité des projets.</li>
+  <li><strong>Reporting :</strong> Présentation des résultats d’analyse sous forme de rapports clairs et concis, facilitant la prise de décision.</li>
+  <li><strong>Collaboration inter-équipes :</strong> Travail en étroite collaboration avec différentes équipes et sous-traitants pour comprendre leurs besoins en matière de données et adapter les solutions en conséquence.</li>
 </ul>
 
-<h2 id="customizing-font-settings">Customizing font settings</h2>
+<h3 id="développeur-visual-basic">Développeur Visual Basic</h3>
+<p><strong>Engie Solutions (Cofely)</strong> - Toulouse, 31<br />
+<em>Stage</em> | 06/2021 - 07/2021</p>
 
-<p>The fonts can be customized by modifying the <code class="language-plaintext highlighter-rouge">.book.font-family-0</code> and <code class="language-plaintext highlighter-rouge">.book.font-family-1</code> entry in <a href="https://github.com/sighingnow/jekyll-gitbook/blob/master/gitbook/custom.css"><code class="language-plaintext highlighter-rouge">./assets/gitbook/custom.css</code></a>,</p>
+<ul>
+  <li><strong>Automatisation de fichiers Excel :</strong> Développement de solutions <strong>VBA</strong> (Visual Basic for Applications) pour automatiser des tâches récurrentes et améliorer l’efficacité des processus.</li>
+  <li><strong>Création de rapports analytiques :</strong> Élaboration de rapports détaillés à partir de l’analyse de données, permettant une meilleure compréhension des performances et des tendances.</li>
+</ul>
 
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.book.font-family-0</span> <span class="p">{</span>
-    <span class="nl">font-family</span><span class="p">:</span> <span class="n">Georgia</span><span class="p">,</span> <span class="nb">serif</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="nc">.book.font-family-1</span> <span class="p">{</span>
-    <span class="nl">font-family</span><span class="p">:</span> <span class="s1">"Helvetica Neue"</span><span class="p">,</span> <span class="n">Helvetica</span><span class="p">,</span> <span class="n">Arial</span><span class="p">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
+<hr />
 
-<h2 id="tips-warnings-and-dangers-blocks">Tips, Warnings and Dangers blocks</h2>
+<h2 id="formation">FORMATION</h2>
 
-<p>The jekyll-gitbook theme supports customized kramdown attributes (<code class="language-plaintext highlighter-rouge">{: .block-tip }</code>, <code class="language-plaintext highlighter-rouge">{: .block-warning }</code>,
-<code class="language-plaintext highlighter-rouge">{: .block-danger }</code>) like that displayed in <a href="https://discordjs.guide/popular-topics/canvas.html#setting-up-napi-rs-canvas">the discord.js website</a>. The marker can be used like</p>
+<h3 id="but--sciences-des-données">BUT : Sciences des données</h3>
+<p><strong>IUT de Carcassonne</strong> - Carcassonne, 11000<br />
+<em>Parcours VCOD (Visualisation et Conception d’Outils Informatiques)</em> | 09/2022 - En cours</p>
 
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### TIP</span>
-<span class="gt">&gt;</span>
-<span class="gt">&gt; This guide is last tested with @napi-rs/canvas^0.1.20, so make sure you have</span>
-<span class="gt">&gt; this or a similar version after installation.</span>
-{: .block-tip }
-</code></pre></div></div>
+<ul>
+  <li><strong>Data Management :</strong> Gestion et organisation des données pour assurer leur accessibilité et leur intégrité, facilitant l’analyse et la prise de décision.</li>
+  <li><strong>Programmation :</strong> Développement de solutions logicielles adaptées aux besoins utilisateurs, avec un focus sur l’optimisation des processus.</li>
+  <li><strong>Analyse Statistique :</strong> Application de méthodes statistiques pour interpréter des données complexes.</li>
+  <li><strong>Intelligence Artificielle :</strong> Initiation au <strong>Machine Learning</strong>.</li>
+</ul>
 
-<p>Rendered page can be previewed from</p>
+<hr />
 
-<p><a href="https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html">https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html</a></p>
+<h2 id="compétences">COMPÉTENCES</h2>
 
-<h2 id="cover-image-inside-pages">Cover image inside pages</h2>
+<ul>
+  <li><strong>Langages de programmation :</strong> Python, R, <strong>Google Apps Script</strong></li>
+  <li><strong>Bases de données :</strong> SQL, MongoDB, <strong>Néo4j</strong></li>
+  <li><strong>Outils de visualisation :</strong> PowerBI, Tableau</li>
+  <li><strong>Autres outils :</strong> Splunk, FME</li>
+</ul>
 
-<p>The jekyll-gitbook theme supports adding a cover image to a specific page by adding
-a <code class="language-plaintext highlighter-rouge">cover</code> field to the page metadata:</p>
+<hr />
 
-<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ---
-  title: Page with cover image
-  author: Tao He
-  date: 2022-05-24
-  category: Jekyll
-  layout: post
-<span class="gi">+ cover: /assets/jekyll-gitbook/dinosaur.gif
-</span>  ---
-</code></pre></div></div>
+<h2 id="langues">LANGUES</h2>
 
-<p>The effect can be previewed from</p>
+<ul>
+  <li><strong>Anglais :</strong> Opérationnel</li>
+  <li><strong>Espagnol :</strong> Notions</li>
+</ul>
 
-<p><a href="https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-05-24-page_cover.html">https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-05-24-page_cover.html</a></p>
+<hr />
 
-<h2 id="diagrams-with-mermaidjs">Diagrams with mermaid.js</h2>
+<h2 id="centres-dintérêt">CENTRES D’INTÉRÊT</h2>
 
-<p>This jekyll-theme supports <a href="https://mermaid.js.org/">mermaid.js</a> to render diagrams
-in markdown.</p>
+<p>Le design de l’information et l’architecture me passionnent pour leur capacité à structurer et transformer l’espace. Les arts urbains et la peinture, quant à eux, enrichissent mon regard artistique en apportant une dimension expressive et esthétique.</p>
 
-<p>To enable the mermaid support, you need to set <code class="language-plaintext highlighter-rouge">mermaid: true</code> in the front matter
-of your post.</p>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
-<span class="na">mermaid</span><span class="pi">:</span> <span class="kc">true</span>
-<span class="nn">---</span>
-</code></pre></div></div>
-
-<p>The example can be previewed from</p>
-
-<p><a href="https://sighingnow.github.io/jekyll-gitbook/jekyll/2023-08-31-mermaid.html">https://sighingnow.github.io/jekyll-gitbook/jekyll/2023-08-31-mermaid.html</a></p>
-
-<h2 id="license">License</h2>
-
-<p>This work is open sourced under the Apache License, Version 2.0.</p>
-
-<p>Copyright 2019 Tao He.</p>
-
-</section>
-            </div><div class="search-results">
-    <div class="has-results">
-        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
-        <ul class="search-results-list"></ul>
-    </div>
-    <div class="no-results">
-        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
-    </div>
-</div></div>
-    </div>
-</div>
-
-<!-- introduce mathjax support -->
-<script>
-window.MathJax = {
-  tex: {
-    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ]
-  },
-  svg: {
-    fontCache: 'global'
-  }
-};
-</script>
-<script
-  type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
-
-<!-- introduce per-page mermaid support -->
-
-
-<!-- introduce mathjax support -->
-<script>
-    function fixes_chrome_anchors() {
-        let chrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-        if (window.location.hash && chrome) {
-            setTimeout(function () {
-                var hash = window.location.hash;
-                window.location.hash = "";
-                window.location.hash = hash;
-            }, 300);
-        }
-    }
-
-    if (document.readyState === "loading") {
-        // Loading hasn't finished yet
-        document.addEventListener("DOMContentLoaded", fixes_chrome_anchors);
-    } else {
-        // `DOMContentLoaded` has already fired
-        fixes_chrome_anchors();
-    }
-</script>
-
-<a href="/jekyll-gitbook/" class="navigation navigation-pre navigation-unique">
-                        <i class="fa"></i>
-                    </a>
-
-                    
-                        <a href="/jekyll-gitbook/others/about/" class="navigation navigation-next navigation-unique" aria-label="Next page: About others">
-                            <i class="fa fa-angle-right"></i>
-                        </a>
-                    
-                </div>
-            </div>
-
-            <script>
-            var gitbook = gitbook || [];
-            gitbook.push(function() {
-                gitbook.page.hasChanged({
-    "page": {
-        "title": "Introduction",
-        "level": "1.1",
-        "depth": 1,
-        
-
-        
-        "next": {
-            "title": "Why Jekyll with GitBook",
-            "level": "1.2",
-            "depth": 1,
-            "path": "_posts/2019-04-27-why.md",
-            "ref": "_posts/2019-04-27-why.md",
-            "articles": []
-        },
-        
-        "dir": "ltr"
-    },    "config": {
-        "plugins": ["fontsettings", "highlight", "livereload", "lunr", "search", "sharing", "theme-default", "livereload"],
-        "styles": {
-            "ebook": "styles/ebook.css",
-            "epub": "styles/epub.css",
-            "mobi": "styles/mobi.css",
-            "pdf": "styles/pdf.css",
-            "print": "styles/print.css",
-            "website": "styles/website.css"
-        },
-        "pluginsConfig": {
-            "expandable-chapter-small2": {
-                "articlesExpand": true,
-            },
-            "fontsettings": {
-                "family": "sans",
-                "size": 2,
-                "theme": "white"
-            },
-            "highlight": {},
-            "livereload": {},
-            "lunr": {
-                "ignoreSpecialCharacters": false,
-                "maxIndexSize": 1000000
-            },
-            "search": {},            "sharing": {
-                "facebook": true,
-
-                "google": false,
-
-                "github": true,
-              
-                "github_link": "https://github.com",
-              
-
-                "telegram": false,
-                "telegram_link": "https://t.me",
-
-                "instapaper": false,
-
-                "twitter": true,
-              
-
-                "vk": false,
-
-                "weibo": false,
-
-                "all": ["facebook", "google", "twitter", "weibo", "instapaper", "github", "telegram"]
-            },
-"theme-default": {
-                "showLevel": false,
-                "styles": {
-                    "ebook": "styles/ebook.css",
-                    "epub": "styles/epub.css",
-                    "mobi": "styles/mobi.css",
-                    "pdf": "styles/pdf.css",
-                    "print": "styles/print.css",
-                    "website": "styles/website.css"
-                }
-            },
-        },
-        "theme": "default",
-        "author": "Tao He",
-        "pdf": {
-            "pageNumbers": true,
-            "fontSize": 12,
-            "fontFamily": "Arial",
-            "paperSize": "a4",
-            "chapterMark": "pagebreak",
-            "pageBreaksBefore": "/",
-            "margin": {
-                "right": 62,
-                "left": 62,
-                "top": 56,
-                "bottom": 56
-            }
-        },
-        "structure": {
-            "langs": "LANGS.md",
-            "readme": "README.md",
-        },
-        "variables": {},
-        "title": "Jekyll Gitbook",
-        "language": "en",
-        "gitbook": "*"
-    },
-    "file": {
-        "path": "README.md",
-        "mtime": "",
-        "type": "markdown"
-    },
-    "gitbook": {
-        "version": "3.2.3",
-        "time": "2024-12-04 11:31:02 +0100"
-    },
-    "basePath": "/jekyll-gitbook",
-    "book": {
-        "language": ""
-    }
-});
-            });
-            </script>
-        </div><script src="/jekyll-gitbook/assets/gitbook/gitbook.js"></script>
-<script src="/jekyll-gitbook/assets/gitbook/theme.js"></script>
-
-<script src="/jekyll-gitbook/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
-<script src="/jekyll-gitbook/assets/gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
-<script src="/jekyll-gitbook/assets/gitbook/gitbook-plugin-expandable-chapters-small2/expandable-chapters-small.js"></script>
-<script src="/jekyll-gitbook/assets/gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
-<script src="/jekyll-gitbook/assets/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
-<script src="/jekyll-gitbook/assets/gitbook/gitbook-plugin-search-pro/search.js"></script>
-<script src="/jekyll-gitbook/assets/gitbook/gitbook-plugin-sharing/buttons.js"></script>
-<script src="/jekyll-gitbook/assets/gitbook/gitbook-plugin-splitter/splitter.js"></script>
-
-<!--
-<script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
-<script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
-<script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
-<script src="../gitbook/gitbook-plugin-search/search.js"></script>
--->
-
-<script src="/jekyll-gitbook/assets/gitbook/custom.js"></script>
-<script src="/jekyll-gitbook/assets/gitbook/custom-local.js"></script>
-
-</body>
-</html>
