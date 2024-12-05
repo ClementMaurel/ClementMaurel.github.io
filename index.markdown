@@ -131,6 +131,7 @@ class CV {
 
 
 ```
+## Diagramme Séquence
 
 ```mermaid
 sequenceDiagram
