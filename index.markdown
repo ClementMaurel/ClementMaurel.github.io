@@ -95,3 +95,27 @@ Joueur fidèle au **Grenade Sport** depuis l'âge de 5 ans (2008-2022), occupant
 
 ### **🎨 Design**  
 Passion pour le **design de l'information**, l'**architecture**, les **arts urbains** et la **peinture**. Intérêt pour la créativité et l'expression visuelle.  
+
+
+---
+ # Diagramme
+---
+
+```mermaid
+sequenceDiagram
+    participant Utilisateur
+    participant ServeurGitHub
+    participant ServeurWebJekyll
+
+    Utilisateur->>ServeurWebJekyll: Demande page
+    ServeurWebJekyll->>ServeurGitHub: Récupère projets
+    ServeurGitHub->>ServeurWebJekyll: Envoie projets
+    ServeurWebJekyll->>Utilisateur: Affiche projets
+```
+
+
+```mermaid
+
+
+
+```
