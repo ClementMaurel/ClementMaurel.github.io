@@ -99,7 +99,7 @@ Passion pour le **design de l'information**, l'**architecture**, les **arts urba
 
 ---
  # Diagramme
----
+
 
 ```mermaid
 classDiagram
@@ -143,3 +143,4 @@ sequenceDiagram
     ServeurGitHub->>ServeurWebJekyll: Envoie projets
     ServeurWebJekyll->>Utilisateur: Affiche projets
 ```
+---
