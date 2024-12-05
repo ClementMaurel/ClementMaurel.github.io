@@ -4,15 +4,6 @@
 **Recherche d'un contrat d'apprentissage en master**  
 Étudiant et futur diplômé d'un **BUT Sciences des données**, j'occupe actuellement un poste de **Data Analyst** en alternance chez **Airbus Commercial Aircraft**. Je suis à la recherche d'un contrat en apprentissage pour préparer un **Master** dans le domaine de l'ingénierie des données ou du **Data Management**.
 
----
-
-## Coordonnées
-- **Téléphone :** 06 40 71 97 05  
-- **E-mail :** [clems2000@outlook.fr](mailto:clems2000@outlook.fr)  
-- **Adresse :** 4 route de Castelnau, 31330 Ondes  
-- **Localisation :** Toulouse  
-- **Date de naissance :** 04/08/2003  
-- **Permis de conduire :** Permis B (avec véhicule personnel)
 
 ---
 
