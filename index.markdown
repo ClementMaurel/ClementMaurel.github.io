@@ -102,6 +102,37 @@ Passion pour le **design de l'information**, l'**architecture**, les **arts urba
 ---
 
 ```mermaid
+classDiagram
+
+Portfolio "1" --> "*" Page : contient
+Portfolio "1" --> "*" Projet : contient
+Portfolio "1" --> "1" CV : contient
+
+class Portfolio {
+    +String titre
+    +String description
+    +String theme
+}
+
+class Page {
+    +String nom
+    +String contenu
+}
+
+class Projet {
+    +String nom
+    +String description
+    +String url
+}
+
+class CV {
+    +String fichier
+}
+
+
+```
+
+```mermaid
 sequenceDiagram
     participant Utilisateur
     participant ServeurGitHub
@@ -111,11 +142,4 @@ sequenceDiagram
     ServeurWebJekyll->>ServeurGitHub: Récupère projets
     ServeurGitHub->>ServeurWebJekyll: Envoie projets
     ServeurWebJekyll->>Utilisateur: Affiche projets
-```
-
-
-```mermaid
-
-
-
 ```
