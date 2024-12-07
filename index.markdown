@@ -53,7 +53,7 @@ IUT de Carcassonne, Carcassonne (11000)
 - 🐍 Python  
 - 📊 R  
 - 🤖 Google Apps Script  
-- 💾 VisualBasic  
+- 💾 Visual Basic  
 
 ### **📂 Bases de données**  
 - 📋 MyAccess  
@@ -67,9 +67,9 @@ IUT de Carcassonne, Carcassonne (11000)
 - 📈 Splunk  
 
 ### **🗺️ Cartographie**  
-- 🗺️ Arcgis  
-- 🗺️ Arcmap  
-- 🌍 PostGis  
+- 🗺️ ArcGIS  
+- 🗺️ ArcMap  
+- 🌍 PostGIS  
 - 🔄 FME  
 
 ---
@@ -91,15 +91,19 @@ IUT de Carcassonne, Carcassonne (11000)
 ## 🏉 Centres d'intérêt  
 
 ### **🏉 Rugby**  
-Joueur fidèle au **Grenade Sport** depuis l'âge de 5 ans (2008-2022), occupant le poste de troisième ligne. Expérience en rugby à 7, à 12, à 13 et à 15.  
+- Joueur fidèle au **Grenade Sport** depuis l'âge de 5 ans (2008-2022).  
+- Poste : troisième ligne.  
+- Expérience : rugby à 7, à 12, à 13 et à 15.  
 
 ### **🎨 Design**  
-Passion pour le **design de l'information**, l'**architecture**, les **arts urbains** et la **peinture**. Intérêt pour la créativité et l'expression visuelle.  
-
+- Passion pour le **design de l'information**, l'**architecture**, les **arts urbains**, et la **peinture**.  
+- Intérêt pour la créativité et l'expression visuelle.  
 
 ---
- # Diagramme
 
+## Diagrammes Mermaid
+
+### Diagramme de classes  
 ```mermaid
 classDiagram
     Portfolio "1" --> "*" Page : contient
@@ -126,12 +130,6 @@ classDiagram
     class CV {
         +String fichier
     }
-
-
-```
-## Diagramme Séquence
-
-```mermaid
 sequenceDiagram
     participant Utilisateur
     participant ServeurGitHub
@@ -142,4 +140,3 @@ sequenceDiagram
     ServeurGitHub->>ServeurWebJekyll: Envoie projets
     ServeurWebJekyll->>Utilisateur: Affiche projets
 ```
----
