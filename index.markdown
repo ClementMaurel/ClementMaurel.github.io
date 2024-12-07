@@ -99,23 +99,6 @@ IUT de Carcassonne, Carcassonne (11000)
 - Passion pour le **design de l'information**, l'**architecture**, les **arts urbains**, et la **peinture**.  
 - Intérêt pour la créativité et l'expression visuelle.  
 
----
-
-| Tâches                                         | Durée estimée |
-|------------------------------------------------|---------------|
-| Modélisation du projet en UML                  | 1h            |
-| Créer le dépôt GitHub                          | 0.5h          |
-| Initialiser le projet Jekyll                   | 1h            |
-| Configurer GitHub Pages                        | 1h            |
-| Choisir et installer un thème Jekyll           | 1.5h          |
-| Créer les pages principales du portfolio       | 1.5h          |
-| Rédiger le contenu pour les pages             | 2h            |
-| Personnaliser le design CSS du thème           | 2h            |
-| Ajouter des projets et des images              | 2h            |
-| Tester le site localement                      | 1h            |
-| Déployer le site sur GitHub Pages              | 1h            |
-| Vérification finale et ajustements             | 1.5h          |
-| **Total**                                      | **17h**       |
 
 ---
 
@@ -175,3 +158,22 @@ Créer un portfolio web personnel en utilisant Jekyll, un générateur de site s
     **Livrable :** Version finale du site prête à être utilisée.
 
 ## Durée totale : 17 heures
+
+---
+
+| Tâches                                         | Durée estimée |
+|------------------------------------------------|---------------|
+| Modélisation du projet en UML                  | 1h            |
+| Créer le dépôt GitHub                          | 0.5h          |
+| Initialiser le projet Jekyll                   | 1h            |
+| Configurer GitHub Pages                        | 1h            |
+| Choisir et installer un thème Jekyll           | 1.5h          |
+| Créer les pages principales du portfolio       | 1.5h          |
+| Rédiger le contenu pour les pages             | 2h            |
+| Personnaliser le design CSS du thème           | 2h            |
+| Ajouter des projets et des images              | 2h            |
+| Tester le site localement                      | 1h            |
+| Déployer le site sur GitHub Pages              | 1h            |
+| Vérification finale et ajustements             | 1.5h          |
+| **Total**                                      | **17h**       |
+
