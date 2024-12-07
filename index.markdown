@@ -130,13 +130,3 @@ classDiagram
     class CV {
         +String fichier
     }
-sequenceDiagram
-    participant Utilisateur
-    participant ServeurGitHub
-    participant ServeurWebJekyll
-
-    Utilisateur->>ServeurWebJekyll: Demande page
-    ServeurWebJekyll->>ServeurGitHub: Récupère projets
-    ServeurGitHub->>ServeurWebJekyll: Envoie projets
-    ServeurWebJekyll->>Utilisateur: Affiche projets
-```
