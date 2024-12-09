@@ -99,7 +99,6 @@ IUT de Carcassonne, Carcassonne (11000)
 - Passion pour le **design de l'information**, l'**architecture**, les **arts urbains**, et la **peinture**.  
 - Intérêt pour la créativité et l'expression visuelle.  
 
-
 ---
 
 # Gestion de Projet - Création d'un Portfolio Web avec Jekyll et GitHub Pages
@@ -177,3 +176,37 @@ Créer un portfolio web personnel en utilisant Jekyll, un générateur de site s
 | Vérification finale et ajustements             | 1.5h          |
 | **Total**                                      | **17h**       |
 
+---
+
+## Diagrammes UML
+
+### Modélisation du projet en UML
+
+```mermaid
+classDiagram
+
+    Portfolio "1" --> "*" Page : contient
+    Portfolio "1" --> "*" Projet : contient
+    Portfolio "1" --> "1" CV : contient
+
+    class Portfolio{
+        +String titre
+        +String description
+        +String theme
+    }
+
+    class Page{
+        +String nom
+        +String contenu
+    }
+
+    class Projet{
+        +String nom
+        +String description
+        +String url
+    }
+
+    class CV{
+        +String fichier
+    }
+```
